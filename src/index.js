@@ -28,7 +28,7 @@ export default function bindKey(key, callback) {
 
     const key = parseKey(keyString);
 
-    if matchesKey(key, e)) {
+    if (matchesKey(key, e)) {
       e.preventDefault();
 
       callback();
