@@ -15,7 +15,7 @@ function matchesKey(key, event) {
     key.shift === event.shiftKey;
 }
 
-export default function bindKey(key, callback) {
+export default function bindKey(keyString, callback) {
   function handler(e) {
     if ((
       !e.ctrlKey && !e.metaKey && !e.altKey
