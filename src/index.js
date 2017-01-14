@@ -1,3 +1,5 @@
+import parseKey from 'parse-key';
+
 function matchesKey(key, event) {
   if (!key) {
     return false;
